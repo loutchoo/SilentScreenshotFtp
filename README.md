@@ -1,3 +1,3 @@
 # silentscreenshoot-ftp
 
-No persistence
+Persistence working, waiting for updates
