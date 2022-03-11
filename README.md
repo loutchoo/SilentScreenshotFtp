@@ -1,3 +1,3 @@
 # silentscreenshoot-ftp
 
-Pas de startup encore
+No persistence
