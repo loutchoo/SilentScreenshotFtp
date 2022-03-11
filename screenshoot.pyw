@@ -8,7 +8,7 @@ import winshell
 
 #détecter le path du dossier appdata sur la machine
 appdata = os.getenv('APPDATA')
-#détecter le path du dossier startup sur la machine (ne fonctionnait simplement pas avec la lib os)
+#détecter le path du dossier startup sur la machine (ne fonctionnait simplement pas avec la lib os je peux aussi simplement récupérer le nom de l'utilisateur et l'ajouter dans le path mais bref)
 startup = winshell.startup()
 
 
