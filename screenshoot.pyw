@@ -35,7 +35,7 @@ def jul():
         jul = Path(rf'{appdata}\jul\%s.png' % date)
         
         #Connexion ftp blablabla upload du fichier
-        session = ftplib.FTP('files.000webhost.com','loutchocsgo','allahwakbar')
+        session = ftplib.FTP('serveur','user','password')
         
         file = open(jul,'rb')
         session.storbinary(f'STOR {jul.name}', file)
