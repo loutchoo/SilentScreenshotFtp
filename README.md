@@ -27,7 +27,7 @@ Once done, the file will be saved in /dist/ :
 Now let's get a look to the reaction of Antiviruses :
 
 Virustotal :
-(atleast 2 false positives)
+(all 3 are false positives)
 
 ![image](https://user-images.githubusercontent.com/63863060/158912203-92b7424a-ae94-4846-84f8-7ec093ef7f65.png)
 
