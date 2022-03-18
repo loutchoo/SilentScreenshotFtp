@@ -66,4 +66,4 @@ Now let's take a look to the reaction of Antiviruses :
 
 ![image](https://user-images.githubusercontent.com/63863060/158912203-92b7424a-ae94-4846-84f8-7ec093ef7f65.png)
 
-Bypass runtime all famous antiviruses lol no socket no detection or maybe just because that's just fucking screenshots lol wtf ofc it's not detected ?? will know that soon thx
+Bypass runtime all famous antiviruses lol no socket no detection or maybe because that's just fucking screenshots lol wtf ofc it's not detected ?? will know more about that soon thx
