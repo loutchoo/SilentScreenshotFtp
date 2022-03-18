@@ -3,9 +3,13 @@
 SilentScreenshotFtp is a program in Python that will give you the opportunity to spy a person by sending screenshots of the screen every wanted seconds, once compiled as a .exe file and opened by the victim, the file will copy itself into the startup directory of the machine and run it, starting to send screenshots without the victim and antiviruses being aware of that or maybe yes but AV is an AV.
 
 To do list :
+
 1: Reduce file size after compilation.
+
 2: Create automatically on the ftp server a directory named by the windows username of the victim.
+
 3: Create a builder that will make everything easier, no need to edit the file and maybe a few ideas will born.
+
 999: @loutchoesport on Twitter, give me ideas.
 
 1:
@@ -35,7 +39,7 @@ Once done, the file will be saved in /dist/ :
 Now let's get a look to the reaction of Antiviruses :
 
 Virustotal :
-(all 3 are false positives)
+:white_check_mark: 3/64 (all 3 are false positives)
 
 ![image](https://user-images.githubusercontent.com/63863060/158912203-92b7424a-ae94-4846-84f8-7ec093ef7f65.png)
 
