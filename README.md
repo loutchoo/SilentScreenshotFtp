@@ -59,11 +59,11 @@ Amazing screenshots 😎
 
 # Antiviruses test :zap:
 
-Now let's get a look to the reaction of Antiviruses :
+Now let's take a look to the reaction of Antiviruses :
 
 :white_check_mark: Virustotal :
 3/64 (all 3 are false positives)
 
 ![image](https://user-images.githubusercontent.com/63863060/158912203-92b7424a-ae94-4846-84f8-7ec093ef7f65.png)
 
-Bypass runtime all famous antiviruses.
+Bypass runtime all famous antiviruses lol no socket no detection ?? will know that soon thx
