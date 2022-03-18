@@ -9,7 +9,9 @@ SilentScreenshotFtp is a program in Python that will give you the opportunity to
 
 :rocket: 2: Create automatically on the ftp server a directory named by the windows username of the victim.
 
-✨ 3: Create a builder that will make everything easier, no need to edit the file and maybe a few ideas will born.
+:pencil: 3: Edit and refresh my code from all the shit variables names i did put in the past yes i regret.
+
+✨ 4: Create a builder that will make everything easier, no need to edit the file and maybe a few ideas will born.
 
 999: @loutchoesport on Twitter, give me ideas :bulb:
 
