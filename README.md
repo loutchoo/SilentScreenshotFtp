@@ -55,7 +55,6 @@ Amazing screenshots 😎
 
 
 ![image](https://user-images.githubusercontent.com/63863060/158913593-e56c77b0-dcba-4749-8c0c-e0923ae4e5eb.png)
-![image](https://user-images.githubusercontent.com/63863060/158913651-713b46e8-f9f2-4b18-be0d-1c96a521cb94.png)
 
 
 # Antiviruses test :zap:
