@@ -40,6 +40,24 @@ Once done, the file will be saved in /dist/ :
 
 ![image](https://user-images.githubusercontent.com/63863060/158912135-cd0e5a08-040a-4e37-bab2-7a5daacb9ad6.png)
 
+
+# Victim side :hankey:
+
+File paste in startup and automatically launching, victim sees nothing.
+
+![image](https://user-images.githubusercontent.com/63863060/158913727-b58eb58d-2166-4347-8e60-cd19359e1ea3.png)
+
+
+
+# Attacker side 🏴
+
+Amazing screenshots 😎
+
+
+![image](https://user-images.githubusercontent.com/63863060/158913593-e56c77b0-dcba-4749-8c0c-e0923ae4e5eb.png)
+![image](https://user-images.githubusercontent.com/63863060/158913651-713b46e8-f9f2-4b18-be0d-1c96a521cb94.png)
+
+
 # Antiviruses test :zap:
 
 Now let's get a look to the reaction of Antiviruses :
