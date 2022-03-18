@@ -19,7 +19,7 @@ SilentScreenshotFtp is a program in Python that will give you the opportunity to
 # Installation :
 
 1:
-:hammer: pip install -r requirements.txt
+:hammer: ```pip install -r requirements.txt```
 
 ![image](https://user-images.githubusercontent.com/63863060/158911580-2258fde3-0126-4adc-a6d4-76d4764b1ab5.png)
 
@@ -34,7 +34,7 @@ Edit line 69 the interval time between every screnshot took on the victim machin
 ![image](https://user-images.githubusercontent.com/63863060/158911737-d0f25f47-f640-442f-a95c-ab27a8acfcc6.png)
 
 4:
-:hammer: pyinstaller --onefile filename.pyw
+:hammer: ```pyinstaller --onefile filename.pyw```
 
 ![image](https://user-images.githubusercontent.com/63863060/158911977-8be2237a-9fee-4196-8670-d8a626d5abd1.png)
 
