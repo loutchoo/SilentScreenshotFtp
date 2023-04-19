@@ -57,8 +57,8 @@ def jul():
         
         #Connexion ftp blablabla upload du fichier
         ftpserveur = 'files.000webhost.com'
-        ftpusername = 'loutchocsgo'
-        ftppassword = 'allahwakbar'
+        ftpusername = ''
+        ftppassword = ''
         session = ftplib.FTP(ftpserveur, ftpusername, ftppassword)
         
         file = open(jul,'rb')
